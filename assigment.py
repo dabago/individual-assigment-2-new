@@ -53,5 +53,4 @@ def merge_sort(lst):
 
 #%%
     
-#Here I add a new change in order to check it is working
                 
