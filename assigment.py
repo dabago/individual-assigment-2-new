@@ -32,7 +32,7 @@ def merge(left, right):
             right.pop(0)
             
     if len(left) == 0:
-        result += right
+        result += right 
     else:
         result += left
             
@@ -51,5 +51,7 @@ def merge_sort(lst):
 
     return merge(merge_sort(left), merge_sort(right))
 
-                
+#%%
+    
+#Here I add a new change in order to check it is working
                 
